@@ -297,7 +297,7 @@ address {
 
 
 .footer-content {
-    width: 264px;
+    max-width: 264px;
 }
 
 .footer-logo {
