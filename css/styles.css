@@ -15,9 +15,8 @@ body {
 }
 
 .container {
-    max-width: 1158px;
-    padding-left: 0;
-    padding-right: 0;
+    max-width: 1440px;
+    padding-inline: 156px;
     margin: 0 auto;
 }
 
@@ -65,16 +64,16 @@ a:hover, a:focus {
 }
 
 .header {
-    border: 1px solid #e7e9fc;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {    
     display: flex;
-    justify-content: space-between;
-    padding-inline: 156px;
+    justify-content: space-between;    
 }
 
-.header .nav, .header .address {
+.header a {
+    display: inline-block;
     padding-block: 24px;
 }
 
@@ -146,11 +145,10 @@ address {
 
 
 .hero-bg {
-    width: 496px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 48px;
+    width: 496px;    
+    margin: 0 auto;
+    padding-block: 48px;
+    text-align: center;
 }
 
 
@@ -161,6 +159,7 @@ address {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    margin-bottom: 48px;
 }
 
 .hero-button {
@@ -179,10 +178,6 @@ address {
 }
 
 
-.features .container {
-    padding-block: 120px;
-    padding-inline: 156px;
-}
 
 .features-list {
     display: flex;
@@ -190,7 +185,7 @@ address {
 }
 
 .features-item {
-    flex-basis: 264px;
+    flex-basis: calc(100% - 48px) / 4;
 }
 
 .feature-title {
@@ -203,10 +198,6 @@ address {
     line-height: 1.5;
 }
 
-
-.team .container {
-    padding-block: 120px;
-}
 
 .team-title {
     margin-bottom: 72px;
@@ -227,10 +218,7 @@ address {
     flex-basis: 264px;
 }
 
-.team-photo {
-    width: 264px;
-    height: 260px;
-}
+
 
 .team-card {
     border-radius: 0 0 4px 4px;
@@ -282,12 +270,11 @@ address {
 }
 
 .portfolio-item {
-    flex-basis: 360px;
+    flex-basis: calc(100% - 48px) / 3;
 }
 
 .portfolio-img {
-    width: 360px;
-    height: 300px;
+    width: 360px;    
 }
 
 .description-container {
@@ -317,9 +304,6 @@ address {
     background: #2e2f42;
 }
 
-.footer .container {
-    padding: 100px 156px;
-}
 
 .footer-content {
     width: 264px;
