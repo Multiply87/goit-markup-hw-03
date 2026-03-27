@@ -185,7 +185,7 @@ address {
 }
 
 .features-item {
-    flex-basis: calc(100% - 48px) / 4;
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .feature-title {
@@ -215,10 +215,8 @@ address {
 
 .team-item {
     background-color: #fff;
-    flex-basis: 264px;
+    flex-basis: calc((100% - 72px) / 4);
 }
-
-
 
 .team-card {
     border-radius: 0 0 4px 4px;
@@ -270,12 +268,9 @@ address {
 }
 
 .portfolio-item {
-    flex-basis: calc(100% - 48px) / 3;
+    flex-basis: calc((100% - 48px)/3);
 }
 
-.portfolio-img {
-    width: 360px;    
-}
 
 .description-container {
     border-bottom: 1px solid #e7e9fc;
