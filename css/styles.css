@@ -11,17 +11,18 @@ body {
     letter-spacing: 0.02em;
     font-weight: 400;
     background-color: #fff;
-    color: #434455;
-    max-width: 1440px;
-    margin: 0 auto;
+    color: #434455;    
 }
 
 .container {
-    max-width: 1440px;
+    max-width: 1158px;
     padding-left: 0;
     padding-right: 0;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0 auto;
+}
+
+.section {
+    padding-block: 120px;
 }
 
 .visually-hidden {
@@ -125,13 +126,14 @@ address {
 
 .hero {
     background: #2e2f42;
+    height: 600px;
 }
 
 .hero .container {
-    padding-top: 188px;
-    padding-bottom: 188px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 
@@ -250,9 +252,6 @@ address {
     color: #434455;
 }
 
-.portfolio .container {
-    padding: 120px 156px;
-}
 
 .portfolio-header-title, .team-title, .features-title {
     font-weight: 700;
